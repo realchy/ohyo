@@ -1,0 +1,105 @@
+body{
+    background-image: url(./登入背景.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 背景尺寸為1180*780px */
+}
+
+.back{
+    position: absolute;
+    left: 1.02%;
+    right: 87.67%;
+    top: 1.95%;
+    bottom: 81.8%;
+    width: 133.4px;
+    height: 133.2px;
+}
+
+.text{
+    position: absolute;
+    width: 321px;
+    left: 430px;
+    top: 333px;
+}
+
+.smlOrPlanet{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 413px;
+    top: 253px;
+    /* 動畫設定 */
+    animation-name: move;
+    animation-duration: 1380ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+  }
+  @keyframes move {
+    0% {
+      top: 253px;
+      left: 413px;
+      transform: rotate(0deg);
+    }
+    7.9% {
+        top: 268px;
+        left: 446px;
+        transform: rotate(16.74deg);
+    }
+    16.2% {
+        top: 279px;
+        left: 462px;
+        transform: rotate(37.71deg);
+    }
+    24.8% {
+        top: 272px;
+        left: 487px;
+        transform: rotate(46.52deg);
+    }
+    33.8% {
+        top: 277px;
+        left: 513px;
+        transform: rotate(81.57deg);
+    }
+    43.2% {
+        top: 272px;
+        left: 533px;
+        transform: rotate(124.69deg);
+    }
+    52.6% {
+        top: 276px;
+        left: 565px;
+        transform: rotate(185.22deg);
+    }
+    62% {
+        top: 275px;
+        left: 587px;
+        transform: rotate(221.89deg);
+    }
+    71.4% {
+        top: 279px;
+        left: 606px;
+        transform: rotate(264.89deg);
+    }
+    80.8% {
+        top: 277px;
+        left: 612px;
+        transform: rotate(270.48deg);
+    }
+    90.2% {
+        top: 277px;
+        left: 615px;
+        transform: rotate(286.28deg);
+    }
+    100% {
+        top: 282px;
+        left: 610px;
+        transform: rotate(290.08deg);
+    }
+}
+.button{
+    position: absolute;
+    width: 1180px;
+    height: 600px;
+    top: 180px;
+    left: 0px;
+}

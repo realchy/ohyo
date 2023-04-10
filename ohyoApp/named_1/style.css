@@ -1,0 +1,32 @@
+body{
+    background-image: url(./登入頁面\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 背景尺寸為1180*780px */
+}
+
+.back{
+    position: absolute;
+    left: 1.02%;
+    right: 87.67%;
+    top: 1.95%;
+    bottom: 81.8%;
+    width: 133.4px;
+    height: 133.2px;
+}
+
+.textBox{
+    position: absolute;
+    width: 508.08px;
+    height: 135.24px;
+    left: 336px;
+    top: 231px;
+}
+
+.signUp{
+    position: absolute;
+    width: 269.28px;
+    height: 132.24px;
+    left: 455px;
+    top: 344px;
+}

@@ -1,0 +1,21 @@
+body{
+    background-image: url(./起始背景.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 背景尺寸為1180*780px */
+}
+
+.logo{
+    position: absolute;
+    width: 427.29px;
+    left: 376px;
+    top: 214.31px;
+}
+
+.goBut{
+    position: absolute;
+    width: 215.87px;
+    height: 205.31px;
+    left: 482px;
+    top: 395.1px;    
+}

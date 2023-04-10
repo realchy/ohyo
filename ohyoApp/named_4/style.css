@@ -1,0 +1,101 @@
+body{
+    background-image: url(./創建星球\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 背景尺寸為1180*780px */
+}
+
+.back{
+    position: absolute;
+    left: 1.02%;
+    right: 87.67%;
+    top: 1.95%;
+    bottom: 81.8%;
+    width: 133.4px;
+    height: 133.2px;
+}
+
+.text{
+    position: absolute;
+    width: 422px;
+    height: 161px;
+    left: 599px;
+    top: 166px;    
+}
+
+.next{
+    position: absolute;
+    width: 269.28px;
+    height: 132.24px;
+    left: 455px;
+    top: 608px;    
+}
+
+.container1 {
+    position: absolute;
+    display: flex;
+    left: 612px;
+    top: 319px;
+    width: 390px;
+    height: 126px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    align-items: center;
+    padding: 0px 13px 0px 13px;
+    gap: 25px;
+  }
+  
+  .image {
+    width: 80px;
+    height: 80px;
+    scroll-snap-align: start;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbg1{
+      position: absolute;
+      width: 420px;
+      height: 126px;
+      background-color: black;
+      opacity: 20%;
+      left: 600px;
+      top: 319px;
+      border-radius: 100px;
+  }
+
+  .container2 {
+    position: absolute;
+    display: flex;
+    left: 612px;
+    top: 471px;
+    width: 390px;
+    height: 126px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    align-items: center;
+    padding: 0px 13px 0px 13px;
+    gap: 25px;
+  }
+
+  .scrollbg2{
+    position: absolute;
+    width: 420px;
+    height: 126px;
+    background-color: black;
+    opacity: 20%;
+    left: 600px;
+    top: 471px;
+    border-radius: 100px;
+}
+.bigOrPlanet{
+  position: absolute;
+  width: 498px;
+  height: 444px;
+  left: 81px;
+  top: 160px;
+}

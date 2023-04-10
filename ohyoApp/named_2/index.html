@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>創建星系</title>
+</head>
+<body>
+    <a href="/named_1/index.html"><img src="./返回 1.png" alt="" class="back"></a>
+    <a href="/named_3/index.html"><img src="./確認.png" alt="" class="check"></a>
+    <img src="./黑黑球.png" alt="" class="bkPlanet">
+    <img src="./輸入匡.png" alt="Image 1" id="myImg" class="textBox">
+    <script>
+        // 獲取img元素
+        var myImg = document.getElementById("myImg");
+      
+        // 監聽點擊事件
+        myImg.addEventListener("click", function() {
+          // 更改img元素的src屬性為新圖像的路徑
+          myImg.src = "./Group 225.png";
+          myImg.alt = "Image 2";
+        });
+      </script>
+</body>
+</html>
