@@ -1,0 +1,62 @@
+body{
+    background-image: url(./背景.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 背景尺寸為1180*780px */
+}
+
+.box{
+    position: absolute;
+    width: 986px;
+    height: 525px;
+    left: 97px;
+    top: 121px;
+}
+
+.close{
+    position: absolute;
+    width: 130.32px;
+    height: 130.56px;
+    left: 926.88px;
+    top: 123.64px;
+}
+
+.break{
+    position: absolute;
+    width: 216px;
+    height: 124.12px;
+    left: 480px;
+    top: 549.88px;
+}
+
+.recording1{
+    position: absolute;
+    width: 586.32px;
+    height: 143.28px;
+    left: 426.96px;
+    top: 216.76px;    
+}
+
+.recording2{
+    position: absolute;
+    width: 586.32px;
+    height: 143.28px;
+    left: 426.96px;
+    top: 216.76px;    
+}
+
+.play{
+    position: absolute;
+    width: 144.96px;
+    height: 144.96px;
+    left: 426.96px;
+    top: 215.56px;    
+}
+
+.stop{
+    position: absolute;
+    width: 144.96px;
+    height: 144.96px;
+    left: 426.96px;
+    top: 215.56px;    
+}

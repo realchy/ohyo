@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>隕石</title>
+</head>
+<body>
+    <img src="./內容.png" alt="" class="box">
+    <a href="#"><img src="./分解.png" alt="" class="break"></a>
+    <a href="/familyHome/index.html"><img src="./關閉.png" alt="" class="close"></a>
+    <img src="./錄音2.png" alt="" id="imgD" class="recording2"  style="display:none;">
+    <img src="./錄音1.png" alt="" id="imgC" class="recording1">
+    <a href="/orStone/index.html"><img src="./暫停.png" alt="" id="imgB" class="stop"></a>
+    <!-- <img src="./播放.png" alt="play" id="imgA" class="play"> -->
+    <script>
+        var currentImage = 1; // 記錄當前顯示的圖片
+        
+        setInterval(function() {
+          if (currentImage == 1) {
+            document.getElementById("imgC").style.display = "none";
+            document.getElementById("imgD").style.display = "block";
+            currentImage = 2;
+          } else {
+            document.getElementById("imgC").style.display = "block";
+            document.getElementById("imgD").style.display = "none";
+            currentImage = 1;
+          }
+        }, 600);
+        </script>
+
+</body>
+</html>

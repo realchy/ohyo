@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>星系主畫面</title>
+</head>
+<body>
+    <img src="./切換角色.png" alt="" id="imgA" class="change">
+    <img src="./切換其他.png" alt="" id="imgB" class="changeOther" style="display: none;">
+    <script>
+        var imgA = document.getElementById("imgA");
+        var imgB = document.getElementById("imgB");
+
+        imgB.style.display = "none";
+
+        imgA.addEventListener("click", function() {
+         if (imgB.style.display === "none") {
+           imgB.style.display = "block";
+         } else {
+           imgB.style.display = "none";
+  }
+});
+    </script>
+
+    <img src="./名稱.png" alt="" class="name">
+    <img src="./紫星.png" alt="" class="puPlanet">
+    <img src="./黃星.png" alt="" class="ywPlanet">
+    <img src="./能量條 1.png" alt="" class="power">
+    <img src="./藍隕石.png" alt="" class="blStone">
+    <img src="./橘星 1.png" alt="" class="orPlanet">
+    <img src="./橘隕石2.png" alt="" class="orStone2">
+    <a href="/meteor/index.html"><img src="./流星.png" alt="" class="meteor"></a>
+    <a href="/record/index.html"><img src="./紀錄.png" alt="" class="record"></a>
+    <a href="/discover/index.html"><img src="./探索.png" alt="" class="discover"></a>
+    <a href="/mission/index.html"><img src="./任務.png" alt="" class="mission"></a>
+    <a href="/setting/index.html"><img src="./設定.png" alt="" class="setting"></a>
+    <a href="#"><img src="./藍星 1.png" alt="" class="blPlanet"></a>
+    <a href="/orStone/index.html"><img src="./橘隕石1.png" alt="" class="orStone1"></a>
+</body>
+</html>

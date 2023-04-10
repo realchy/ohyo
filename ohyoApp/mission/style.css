@@ -1,0 +1,13 @@
+body{
+    background-image: url(./星系-任務.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 背景尺寸為1180*780px */
+}
+
+.but{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 0px;
+}

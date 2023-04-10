@@ -1,0 +1,191 @@
+body{
+    background-image: url(./背景.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 背景尺寸為1180*780px */
+}
+.change{
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    left: 6px;
+    top: 10.52px;
+}
+
+.changeOther{
+    position: absolute;
+    width: 69px;
+    height: 130.36px;
+    left: 99px;
+    top: 29px;
+}
+
+.power{
+    position: absolute;
+    width: 143.04px;
+    height: 369.12px;
+    left: 1px;
+    top: 249px;
+}
+
+.name{
+    position: absolute;
+    width: 433.2px;
+    /* height: 161.28px; */
+    left: 371.28px;
+    top: 0px;
+}
+
+.discover{
+    position: absolute;
+    width: 133.2px;
+    height: 133.2px;
+    left: 1039.44px;
+    top: 27.56px; 
+}
+
+.record{
+    position: absolute;
+    width: 133.2px;
+    height: 141.84px;
+    left: 1039.44px;
+    top: 120.92px;
+}
+
+.mission{
+    position: absolute;
+    width: 133.2px;
+    height: 142.32px;
+    left: 1039.44px;
+    top: 222.68px;
+}
+
+.setting{
+    position: absolute;
+    width: 133.2px;
+    height: 140.88px;
+    left: 1039.92px;
+    top: 643px;
+}
+
+.meteor{
+    position: absolute;
+    width: 181.2px;
+    height: 181.2px;
+    left: 507.6px;
+    top: 348.16px;
+}
+
+/* 藍星範圍 */
+.blPlanet{
+    position: absolute;
+    width: 322.32px;
+    height: 322.32px;
+    left: 258px;
+    top: 103px;    
+    /* 動畫設定 */
+    animation: move1 500ms linear 0.5s infinite alternate none;
+}
+@keyframes move1 {
+    0% {
+        left: 258px;
+        top: 103px;    
+    }
+    
+    100% {
+        left: 258px;
+        top: 103px;
+        transform: rotate(-4.37deg);
+      }
+}
+
+.blStone{
+    position: absolute;
+    width: 112.32px;
+    height: 113.04px;
+    left: 234.48px;
+    top: 82.96px;
+}
+
+/* 橘星範圍 */
+.orPlanet{
+    position: absolute;
+    width: 351.05px;
+    height: 322.32px;
+    left: 590px;
+    top: 112px;
+    /* 動畫設定 */
+    animation: move2 500ms linear 0.5s infinite alternate none;
+}
+@keyframes move2 {
+    0% {
+        left: 590px;
+        top: 112px;
+    }
+    
+    100% {
+        left: 590px;
+        top: 112px;
+        transform: scale(1.05);
+      }
+}
+.orStone1{
+    position: absolute;
+    width: 112.32px;
+    height: 113.04px;
+    left: 820.08px;
+    top: 76px;
+}
+.orStone2{
+    position: absolute;
+    width: 112.32px;
+    height: 113.04px;
+    left: 864.72px;
+    top: 137.68px;
+}
+
+/* 黃星範圍 */
+.ywPlanet{
+    position: absolute;
+    width: 382.32px;
+    height: 335.52px;
+    left: 198px;
+    top: 428.8px;
+    /* 動畫設定 */
+    animation: move3 500ms linear 0.5s infinite alternate none;
+}
+@keyframes move3 {
+    0% {
+        left: 198px;
+        top: 428.8px;
+    }
+    
+    100% {
+        left: 198px;
+        top: 428.8px;
+        transform: scale(1.05);
+      }
+}
+
+/* 紫星範圍 */
+.puPlanet{
+    position: absolute;
+    width: 334.32px;
+    height: 336px;
+    left: 624px;
+    top: 428.08px;    
+    /* 動畫設定 */
+    animation: move4 500ms linear 0.5s infinite alternate none;
+}
+@keyframes move4 {
+    0% {
+        left: 624px;
+        top: 428.08px;  
+    }
+    
+    100% {
+        left: 624px;
+        top: 428.08px;  
+        transform: rotate(2.23deg);
+      }
+}
