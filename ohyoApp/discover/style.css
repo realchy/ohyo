@@ -1,0 +1,46 @@
+.back{
+    position: fixed;
+    left: 1.02%;
+    right: 87.67%;
+    top: 1.95%;
+    bottom: 81.8%;
+    width: 133.4px;
+    height: 133.2px;
+}
+.search{
+    position: fixed;
+    width: 133.2px;
+    height: 151.2px;
+    top: 9px;
+    right: 7.8px;
+}
+.locating{
+    position: fixed;
+    width: 133.2px;
+    height: 133.2px;
+    top:123px;
+    right: 7.8px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+.bg{
+    background-color: rgb(255, 255, 255);
+    width: 1180px; 
+    height: 780px;
+    position: absolute;
+    overflow: scroll; 
+    top: 0px;
+    left: 0px;
+}
+.bgimg{
+    width: 2496px;
+    height: 1699px;
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    transform: translate(-30%, -30%);
+    transition: transform 0.5s ease;;   
+}

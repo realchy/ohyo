@@ -1,0 +1,70 @@
+body{
+    background-image: url(./背景.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 背景尺寸為1180*780px */
+}
+
+.back{
+    position: absolute;
+    left: 1.02%;
+    right: 87.67%;
+    top: 1.95%;
+    bottom: 81.8%;
+    width: 133.4px;
+    height: 133.2px;
+}
+.text{
+    position: absolute;
+    width: 816px;
+    height: 126.78px;
+    left: 126px;
+    top: 15.22px;
+}
+
+.pastRecord{
+    position: absolute;
+    width: 130.56px;
+    height: 131.76px;
+    left: 1036px;
+    top: 17px;
+}
+
+.circle{
+    position: absolute;
+    width: 180px;
+    height: 16px;
+    left: 500px;
+    top: 736px;    
+}
+
+.container1 {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 519px;
+    top: 171px;
+    left: 0px;
+    overflow-x: scroll;
+    direction: rtl; /* 設置文本方向為從右往左 */
+    scroll-snap-type: x mandatory; /* 指定水平方向捕捉 */
+    scroll-snap-align: end; /* 捕捉點從左邊對齊到右邊 */
+    align-items: center;
+  }
+
+.image{
+width: 601px;
+height: 519px;
+margin: -100px -30px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+.rdbg{
+    position: absolute;
+    width: 1180px;
+    height: 800px;
+    top: 80px;
+    opacity: 50%;
+  }

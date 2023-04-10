@@ -1,0 +1,41 @@
+body{
+    background-image: url(./背景.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 背景尺寸為1180*780px */
+}
+
+.back{
+    position: absolute;
+    left: 1.02%;
+    right: 87.67%;
+    top: 1.95%;
+    bottom: 81.8%;
+    width: 133.4px;
+    height: 133.2px;
+}
+
+.name{
+    position: absolute;
+    width: 1180px;
+    left: 6px;
+    top: 0px;
+}
+
+.planet{
+    position: absolute;
+    width: 831px;
+    height: 696px;
+    left: 15.25%;
+    right: 14.32%;
+    top: 10.26%;
+    bottom: 0.51%;    
+}
+
+.comment{
+    position: absolute;
+    width: 133.2px;
+    height: 133.2px;
+    top: 27px;
+    left: 1039px;
+}

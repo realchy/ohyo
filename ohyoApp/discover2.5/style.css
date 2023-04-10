@@ -1,0 +1,22 @@
+body{
+    background-image: url(./Group232.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 背景尺寸為1180*780px */
+}
+
+.search1{
+    position: absolute;
+    width: 928.83px;
+    height: 356.29px;
+    left: 126px;
+    top: 212.12px;
+}
+/* 
+.search2{
+    position: absolute;
+    width: 928.83px;
+    height: 356.29px;
+    left: 126px;
+    top: 212.12px;
+} */

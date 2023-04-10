@@ -1,0 +1,68 @@
+body{
+    background-image: url(./背景.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 背景尺寸為1180*780px */
+}
+
+.back{
+    position: absolute;
+    left: 1.02%;
+    right: 87.67%;
+    top: 1.95%;
+    bottom: 81.8%;
+    width: 133.4px;
+    height: 133.2px;
+}
+
+.left{
+    position: absolute;
+    width: 101.46px;
+    height: 98.28px;
+    left: 35px;
+    top: 340.54px;
+}
+
+.right{
+    position: absolute;
+    width: 101.46px;
+    height: 98.28px;
+    right: 10.54px;
+    top: 340.54px;
+}
+
+.text{
+    position: absolute;
+    width: 392px;
+    height: 499px;
+    left: 190px;
+    top: 157px;
+}
+
+.ufo{
+    position: absolute;
+    width: 748px;
+    height: 524.8px;
+    left: 408px;
+    top: 310px;
+}
+
+.blPlanet{
+    position: absolute;
+    width: 494px;
+    height: 494px;
+    left: 526px;
+    top: 82px;
+    animation: move1 800ms linear 0.5s infinite alternate none
+}
+@keyframes move1 {
+    0% {
+        left: 526px;
+        top: 82px;
+    }
+    
+    100% {
+        left: 526px;
+        top: 71px;
+      }
+}
