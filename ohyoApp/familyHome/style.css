@@ -147,21 +147,20 @@ body{
 /* 黃星範圍 */
 .ywPlanet{
     position: absolute;
-    width: 382.32px;
     height: 335.52px;
-    left: 198px;
+    left: 258px;
     top: 428.8px;
     /* 動畫設定 */
     animation: move3 500ms linear 0.5s infinite alternate none;
 }
 @keyframes move3 {
     0% {
-        left: 198px;
+        left: 258px;
         top: 428.8px;
     }
     
     100% {
-        left: 198px;
+        left: 258px;
         top: 428.8px;
         transform: scale(1.05);
       }
@@ -188,4 +187,20 @@ body{
         top: 428.08px;  
         transform: rotate(2.23deg);
       }
+}
+
+.puStone{
+    position: absolute;
+    width: 112.08px;
+    height: 113.52px;
+    left: 870.24px;
+    top: 435.08px;    
+}
+
+.ywStone{
+    position: absolute;
+    width: 148.8px;
+    height: 182.16px;
+    left: 186px;
+    top: 425.8px;    
 }
