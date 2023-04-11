@@ -1,0 +1,13 @@
+.back{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1180px;
+    height: 780px;
+    overflow: hidden;
+}
+
+video{
+    width: 100%;
+    margin-top: -20px;
+}
