@@ -1,0 +1,42 @@
+body{
+    background-image: url(./背景.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 背景尺寸為1180*780px */
+}
+
+.cover{
+    background-color: black;
+    opacity: 50%;
+    position: absolute;
+    width: 1180px;
+    height: 780px;
+    top: 0px;
+    left: 0px;
+}
+
+.box{
+    position: absolute;
+    width: 987px;
+    height: 691px;
+    left: 96px;
+    top: 44px;
+}
+
+.close{
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    top: 83px;
+    right: 144px;
+}
+
+.enter{
+    position: absolute;
+    width: 180px;
+    height: 90px;
+    top: 575px;
+    right: 500px;
+    /* background-color: cadetblue;
+    opacity: 50%; */
+}

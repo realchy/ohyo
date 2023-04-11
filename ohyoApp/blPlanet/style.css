@@ -1,0 +1,64 @@
+.back{
+    position: fixed;
+    left: 1.02%;
+    right: 87.67%;
+    top: 1.95%;
+    bottom: 81.8%;
+    width: 133.4px;
+    height: 133.2px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+.bg{
+    background-color: rgb(255, 255, 255);
+    width: 1190px; 
+    height: 790px;
+    position: absolute;
+    overflow: scroll; 
+    top: 0px;
+    left: 0px;
+}
+.bgimg{
+    width: 1846px;
+    height: 1279px;
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    transform: translate(-30%, -30%);
+    transition: transform 0.5s ease;;   
+}
+
+.name{
+    position: absolute;
+    width: 277.2px;
+    height: 132.96px;
+    left: 911px;
+    top: 17px;
+}
+
+.mission{
+    position: absolute;
+    width: 133.2px;
+    height: 138.96px;
+    left: 1052px;
+    top: 242px;    
+}
+
+.storehouse{
+    position: absolute;
+    width: 133.2px;
+    height: 137.04px;
+    top: 342px;
+    left: 1052px;
+}
+
+.shop{
+    position: absolute;
+    width: 136.56px;
+    height: 139.92px;
+    left: 1051px;
+    top: 433px;
+}

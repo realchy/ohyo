@@ -1,0 +1,41 @@
+body{
+    background-image: url(./背景.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 背景尺寸為1180*780px */
+}
+
+.back{
+    position: absolute;
+    left: 1.02%;
+    right: 87.67%;
+    top: 1.95%;
+    bottom: 81.8%;
+    width: 133.4px;
+    height: 133.2px;
+}
+
+.text{
+    position: absolute;
+    width: 965px;
+    height: 119px;
+    left: 115px;
+    top: 20px;
+}
+
+.book{
+    position: absolute;
+    width: 133.2px;
+    height: 133.2px;
+    left: 1032px;
+    top: 16px;
+}
+
+.plant{
+    position: absolute;
+    width: 1130px;
+    height: 659.35px;
+    left: 25px;
+    bottom: 0px;
+    overflow: hidden;
+}

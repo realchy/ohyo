@@ -1,0 +1,14 @@
+body{
+    background-image: url(./背景.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 背景尺寸為1180*780px */
+}
+
+.box{
+    position: absolute;
+    width: 987px;
+    height: 691px;
+    top: 44px;
+    left: 97px;
+}
