@@ -1,36 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>隕石</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>隕石</title>
 </head>
+
 <body>
-    <img src="./內容.png" alt="" class="box">
-    <a href="https://realchy.github.io/ohyo/ohyoApp/orStone3/index.html"><img src="./分解.png" alt="" class="break"></a>
-    <a href="https://realchy.github.io/ohyo/ohyoApp/familyHome/index.html"><img src="./關閉.png" alt="" class="close"></a>
-    <img src="./錄音2.png" alt="" id="imgD" class="recording2"  style="display:none;">
-    <img src="./錄音1.png" alt="" id="imgC" class="recording1">
-    <a href="https://realchy.github.io/ohyo/ohyoApp/orStone/index.html"><img src="./暫停.png" alt="" id="imgB" class="stop"></a>
-    <!-- <img src="./播放.png" alt="play" id="imgA" class="play"> -->
-    <script>
-        var currentImage = 1; // 記錄當前顯示的圖片
-        
-        setInterval(function() {
-          if (currentImage == 1) {
-            document.getElementById("imgC").style.display = "none";
-            document.getElementById("imgD").style.display = "block";
-            currentImage = 2;
-          } else {
-            document.getElementById("imgC").style.display = "block";
-            document.getElementById("imgD").style.display = "none";
-            currentImage = 1;
-          }
-        }, 600);
-        </script>
+  <img src="./內容.png" alt="" class="box">
+  <a href="https://realchy.github.io/ohyo/ohyoApp/orStone3/index.html"><img src="./分解.png" alt="" class="break"></a>
+  <a href="https://realchy.github.io/ohyo/ohyoApp/familyHome/index.html"><img src="./關閉.png" alt="" class="close"></a>
+  <img src="./錄音2.png" alt="" id="imgD" class="recording2" style="display:none;">
+  <img src="./錄音1.png" alt="" id="imgC" class="recording1">
+  <a href="https://realchy.github.io/ohyo/ohyoApp/orStone/index.html"><img src="./暫停.png" alt="" id="imgB"
+      class="stop"></a>
+  <audio id="audioPlayer" autoplay controls style="display: none;"></audio>
+
+  <!-- <img src="./播放.png" alt="play" id="imgA" class="play"> -->
+  <script>
+    var currentImage = 1; // 記錄當前顯示的圖片
+
+    setInterval(function () {
+      if (currentImage == 1) {
+        document.getElementById("imgC").style.display = "none";
+        document.getElementById("imgD").style.display = "block";
+        currentImage = 2;
+      } else {
+        document.getElementById("imgC").style.display = "block";
+        document.getElementById("imgD").style.display = "none";
+        currentImage = 1;
+      }
+    }, 600);
+
+    //播放音訊
+    // 存储音频文件的数组
+    var audioFiles = [
+      'audio1.mp3',
+      'audio2.mp3',
+      'audio3.mp3'
+    ];
+
+    // 随机选择音频文件
+    var randomIndex = Math.floor(Math.random() * audioFiles.length);
+    var selectedAudio = audioFiles[randomIndex];
+
+    // 获取音频元素
+    var audioPlayer = document.getElementById('audioPlayer');
+
+    // 设置音频源
+    audioPlayer.src = selectedAudio;
+
+    // 播放音频
+    audioPlayer.play();
+
+    window.onload = function () {
+      // 添加上述的JavaScript代码
+    };
+  </script>
 
 </body>
-</html>
 
+</html>
