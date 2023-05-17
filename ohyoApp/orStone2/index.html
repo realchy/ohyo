@@ -10,14 +10,17 @@
 </head>
 
 <body>
-  <img src="./內容.png" alt="" class="box">
+  <img src="./內容.png" alt="" class="box" id="targetObject">
   <a href="https://realchy.github.io/ohyo/ohyoApp/orStone3/index.html"><img src="./分解.png" alt="" class="break"></a>
   <a href="https://realchy.github.io/ohyo/ohyoApp/familyHome/index.html"><img src="./關閉.png" alt="" class="close"></a>
   <img src="./錄音2.png" alt="" id="imgD" class="recording2" style="display:none;">
   <img src="./錄音1.png" alt="" id="imgC" class="recording1">
   <a href="https://realchy.github.io/ohyo/ohyoApp/orStone/index.html"><img src="./暫停.png" alt="" id="imgB"
       class="stop"></a>
-  <audio id="audioPlayer" autoplay controls style="display: none;"></audio>
+  <!-- 音訊 -->
+  <audio id="audio1" src="audio1.mp3" type="audio/mpeg"></audio>
+  <audio id="audio2" src="audio2.mp3" type="audio/mpeg"></audio>
+  <audio id="audio3" src="audio3.mp3" type="audio/mpeg"></audio>
 
   <!-- <img src="./播放.png" alt="play" id="imgA" class="play"> -->
   <script>
@@ -35,30 +38,28 @@
       }
     }, 600);
 
-    //播放音訊
-    // 存储音频文件的数组
-    var audioFiles = [
-      'audio1.mp3',
-      'audio2.mp3',
-      'audio3.mp3'
-    ];
+    //音訊
+    document.getElementById('targetObject').addEventListener('click', function () {
+      var randomNum = Math.floor(Math.random() * 3) + 1; // 隨機數範圍從 1 到 3
 
-    // 随机选择音频文件
-    var randomIndex = Math.floor(Math.random() * audioFiles.length);
-    var selectedAudio = audioFiles[randomIndex];
+      var audioElement;
+      switch (randomNum) {
+        case 1:
+          audioElement = document.getElementById('audio1');
+          break;
+        case 2:
+          audioElement = document.getElementById('audio2');
+          break;
+        case 3:
+          audioElement = document.getElementById('audio3');
+          break;
+      }
 
-    // 获取音频元素
-    var audioPlayer = document.getElementById('audioPlayer');
+      if (audioElement) {
+        audioElement.play();
+      }
+    });
 
-    // 设置音频源
-    audioPlayer.src = selectedAudio;
-
-    // 播放音频
-    audioPlayer.play();
-
-    window.onload = function () {
-      // 添加上述的JavaScript代码
-    };
   </script>
 
 </body>
