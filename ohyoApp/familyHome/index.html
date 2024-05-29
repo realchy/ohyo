@@ -8,6 +8,7 @@
     <title>星系主畫面</title>
 </head>
 <body>
+  <a href="#" onclick="openWindow()"></a>
     <img src="./切換角色.png" alt="" id="imgA" class="change">
     <img src="./切換其他.png" alt="" id="imgB" class="changeOther" style="display: none;">
     <script>
@@ -23,6 +24,10 @@
            imgB.style.display = "none";
   }
 });
+function openWindow() {
+            window.open('https://realchy.github.io/ohyo/ohyoApp/familyHome/index.html', 'newwindow', 'width=1180,height=780,resizable=yes,scrollbars=yes');
+            return false; // 阻止默認的鏈接行為
+        }
     </script>
 
     <img src="./名稱.png" alt="" class="name">
